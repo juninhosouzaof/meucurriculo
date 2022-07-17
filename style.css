@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.container-secoes {
+    background-color: whitesmoke;
+    color: black;
+    padding: 32px;
+    width: 88%;
+    align-items: baseline;
+    margin: auto;
+}
+
+.card-unisuam,
+.card-senac,
+.card-cni {
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border: 2px outset aqua;
+    border-radius: 5px;
+    ;
+}
+
+.imagem-titulo-topo {
+    background-color: aqua;
+    padding: 32px;
+}
+
+.imagens-card-habilidades {
+    display: inline-flex;
+}
+
+img {
+    padding: 8px;
+}
+
+hr {
+    width: 50%;
+    border: 1px groove black;
+}
+
+.card-contatos {
+    align-items: center;
+    display: inline;
+}
+
+.container-contatos {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape {
+    background-color: aqua;
+    color: black;
+    margin: auto;
+    padding: 32px;
+}
+
+.instagram,
+.linkedin,
+.email {
+    padding: 8px;
+    width: 80px;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+}

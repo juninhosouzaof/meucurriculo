@@ -34,7 +34,6 @@ body {
     color: black;
     border: 2px outset aqua;
     border-radius: 5px;
-    ;
 }
 
 .container-topo {
@@ -155,6 +154,20 @@ b {
 }
 
 .card-cni:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.card-projetos {
+    display: inline-block;
+    width: 75%;
+    background-color: white;
+    color: black;
+    border: 2px outset aqua;
+    border-radius: 5px;
+}
+
+.card-projetos:hover {
     transform: scale(1.1);
     transition: all 0.4s;
 }

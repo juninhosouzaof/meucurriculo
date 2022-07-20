@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 body {
     background-color: black;
     text-align: center;
     width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container-secoes {
@@ -11,6 +13,16 @@ body {
     width: 88%;
     align-items: baseline;
     margin: auto;
+}
+
+.imagens-card-idiomas {
+    display: inline-block;
+    margin: 8px;
+}
+
+.imagens-card-idiomas :hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
 }
 
 .card-unisuam,
@@ -25,17 +37,68 @@ body {
     ;
 }
 
-.imagem-titulo-topo {
+.container-topo {
     background-color: aqua;
     padding: 32px;
+    color: #171515;
+}
+
+.imagem-titulo-topo:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
 }
 
 .imagens-card-habilidades {
-    display: inline-flex;
+    display: inline-block;
 }
 
 img {
     padding: 8px;
+    margin: 16px;
+}
+
+.imagens-card-habilidades:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #171515;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #171515;
+    background-color: whitesmoke;
+    border: 1px outset aqua;
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #dd2a7b;
+    background-color: whitesmoke;
+    border: 1px outset aqua;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #0e76a8;
+    background-color: whitesmoke;
+    border: 1px outset aqua;
+}
+
+.email:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: #db4a39;
+    background-color: whitesmoke;
+    border: 1px outset aqua;
 }
 
 hr {
@@ -45,13 +108,14 @@ hr {
 
 .card-contatos {
     align-items: center;
-    display: inline;
+    display: inline-block;
 }
 
 .container-contatos {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
+    padding: 8px;
 }
 
 .rodape {
@@ -61,11 +125,10 @@ hr {
     padding: 32px;
 }
 
-.instagram,
-.linkedin,
-.email {
+button {
     padding: 8px;
     width: 80px;
+    height: auto;
 }
 
 button {
@@ -73,4 +136,25 @@ button {
     border: none;
     padding: 16px;
     border-radius: 5px;
+    display: inline;
+    text-align: center;
+}
+
+b {
+    text-align: center;
+}
+
+.card-unisuam:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.card-senac:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.card-cni:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
 }
